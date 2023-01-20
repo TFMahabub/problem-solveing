@@ -44,11 +44,21 @@
 // console.log(replasedResult);
 
 // 6. smart way to console.log for developers:-
-const name1 = "mahabub";
-const name2 = "alam";
+// const name1 = "mahabub";
+// const name2 = "alam";
 
-console.log(`name1 -${name1}`);
-console.log(`name2 -${name2}`);
+// console.log(`name1 -${name1}`);
+// console.log(`name2 -${name2}`);
 
-console.log({ name1 });
-console.log({ name2 });
+// console.log({ name1 });
+// console.log({ name2 });
+
+// 7. Bring out How many time take to finish the action:-
+const startTime = performance.now();
+
+for (let i = 0; i <= 20; i++) {
+  console.log(i);
+}
+
+const endTime = performance.now();
+console.log(startTime + "second", endTime + "second");
