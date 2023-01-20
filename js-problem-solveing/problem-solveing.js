@@ -98,8 +98,16 @@
 // console.log(removeDuplicateValue);
 
 // 12. Compare  two arrays by values:-
-const hasSameElements = (a, b) => {
-  return a.length === b.length && a.every((value, index) => value === b[index]);
-  // return b.length === a.length && b.every((value, index) => value === a[index]);
-};
-console.log(hasSameElements([1, "3"], [1, "4"]));
+// const hasSameElements = (a, b) => {
+//   return a.length === b.length && a.every((value, index) => value === b[index]);
+//   // return b.length === a.length && b.every((value, index) => value === a[index]);
+// };
+// console.log(hasSameElements([1, "3"], [1, "4"]));
+
+// 13. coma(,) oparator useCase:-
+let x = 1;
+x = (x++, x);
+console.log(x);
+
+let y = (1, 4);
+console.log(y);
