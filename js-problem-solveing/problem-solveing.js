@@ -64,13 +64,23 @@
 // console.log(startTime + "second", endTime + "second");
 
 // 8. Swapping values:-
-let array = [1, 2, 3, 4, 5];
+// let array = [1, 2, 3, 4, 5];
 // let temp = array[0];
 // array[0] = array[4];
 // array[4] = temp;
 
 // console.log(array);
 
-//another shortcut way to swap values
-[array[0], array[4]] = [array[4], array[0]];
-console.log(array);
+// //another shortcut way to swap values
+// [array[0], array[4]] = [array[4], array[0]];
+// console.log(array);
+
+// 9. change object properties name:-
+const language = {
+  name: "mahabub",
+  age: 24,
+  country: "Bangladesh",
+};
+
+const { name: Name, age: Age, country: Country } = language;
+console.log(Name, Age, Country);
