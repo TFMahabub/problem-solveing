@@ -21,15 +21,24 @@
 // const array = [0, 2, 3, 4, 5, 6, ["name", 2], [0, 1], "mahabub"];
 // console.log(array.flat());
 
-const array2 = [
-  0,
-  2,
-  3,
-  4,
-  5,
-  6,
-  ["name", [1, 2, ["a", "b"]], 2],
-  [0, 1],
-  "mahabub",
-];
-console.log(array2.flat(Infinity));
+//another way:-
+// const array2 = [
+//   0,
+//   2,
+//   3,
+//   4,
+//   5,
+//   6,
+//   ["name", [1, 2, ["a", "b"]], 2],
+//   [0, 1],
+//   "mahabub",
+// ];
+// console.log(array2.flat(Infinity));
+
+// 5. Replase an String word from a sentence:-
+const title =
+  "mahabub alam is web developer. he love to do web developerment. he already did up to 15 web development project";
+
+const replasedResult = title.replace(/web/g, "Frontend");
+
+console.log(replasedResult);
