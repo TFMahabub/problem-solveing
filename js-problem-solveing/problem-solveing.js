@@ -93,8 +93,15 @@ const e = require("express");
 // e.target.Date.valueAsDate;
 
 // 11. Remove duplicated value from an array:-
-const duplicateValue = [1, 1, 3, 3, 4, 5, 6, 7, 7];
+// const duplicateValue = [1, 1, 3, 3, 4, 5, 6, 7, 7];
 
-const removeDuplicateValue = [...new Set(duplicateValue)];
+// const removeDuplicateValue = [...new Set(duplicateValue)];
 
-console.log(removeDuplicateValue);
+// console.log(removeDuplicateValue);
+
+// 12. Compare  two arrays by values:-
+const hasSameElements = (a, b) => {
+  return a.length === b.length && a.every((value, index) => value === b[index]);
+  // b.every((value, index) => value === a[index]);
+};
+console.log(hasSameElements([1, "3"], [1, "4"]));
