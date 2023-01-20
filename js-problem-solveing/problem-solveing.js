@@ -1,8 +1,6 @@
 // 1. remove falsey value from an array:-
 // const array = [1, 3, 0, false, true, null, undefined, []];
 
-const e = require("express");
-
 // const result = array.filter(Boolean);
 // console.log(result);
 
@@ -102,6 +100,6 @@ const e = require("express");
 // 12. Compare  two arrays by values:-
 const hasSameElements = (a, b) => {
   return a.length === b.length && a.every((value, index) => value === b[index]);
-  // b.every((value, index) => value === a[index]);
+  // return b.length === a.length && b.every((value, index) => value === a[index]);
 };
 console.log(hasSameElements([1, "3"], [1, "4"]));
