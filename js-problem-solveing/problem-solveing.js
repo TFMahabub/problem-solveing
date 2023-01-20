@@ -54,11 +54,23 @@
 // console.log({ name2 });
 
 // 7. Bring out How many time take to finish the action:-
-const startTime = performance.now();
+// const startTime = performance.now();
 
-for (let i = 0; i <= 20; i++) {
-  console.log(i);
-}
+// for (let i = 0; i <= 20; i++) {
+//   console.log(i);
+// }
 
-const endTime = performance.now();
-console.log(startTime + "second", endTime + "second");
+// const endTime = performance.now();
+// console.log(startTime + "second", endTime + "second");
+
+// 8. Swapping values:-
+let array = [1, 2, 3, 4, 5];
+// let temp = array[0];
+// array[0] = array[4];
+// array[4] = temp;
+
+// console.log(array);
+
+//another shortcut way to swap values
+[array[0], array[4]] = [array[4], array[0]];
+console.log(array);
