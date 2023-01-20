@@ -1,6 +1,8 @@
 // 1. remove falsey value from an array:-
 // const array = [1, 3, 0, false, true, null, undefined, []];
 
+const e = require("express");
+
 // const result = array.filter(Boolean);
 // console.log(result);
 
@@ -76,11 +78,16 @@
 // console.log(array);
 
 // 9. change object properties name:-
-const language = {
-  name: "mahabub",
-  age: 24,
-  country: "Bangladesh",
-};
+// const language = {
+//   name: "mahabub",
+//   age: 24,
+//   country: "Bangladesh",
+// };
 
-const { name: Name, age: Age, country: Country } = language;
-console.log(Name, Age, Country);
+// const { name: Name, age: Age, country: Country } = language;
+// console.log(Name, Age, Country);
+
+// 10. get value as data type;-
+// e.target.name.valueAsNumber;
+// e.target.checkMark.valueAsBoolean;
+// e.target.Date.valueAsDate;
