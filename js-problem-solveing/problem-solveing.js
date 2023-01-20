@@ -18,5 +18,18 @@
 // console.log(animal);
 
 // 4. How to flattern a multi dimensional array:-
-const array = [0, 2, 3, 4, 5, 6, ["name", 2], [0, 1], "mahabub"];
-console.log(array.flat());
+// const array = [0, 2, 3, 4, 5, 6, ["name", 2], [0, 1], "mahabub"];
+// console.log(array.flat());
+
+const array2 = [
+  0,
+  2,
+  3,
+  4,
+  5,
+  6,
+  ["name", [1, 2, ["a", "b"]], 2],
+  [0, 1],
+  "mahabub",
+];
+console.log(array2.flat(Infinity));
