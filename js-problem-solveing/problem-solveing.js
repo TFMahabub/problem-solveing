@@ -91,3 +91,10 @@ const e = require("express");
 // e.target.name.valueAsNumber;
 // e.target.checkMark.valueAsBoolean;
 // e.target.Date.valueAsDate;
+
+// 11. Remove duplicated value from an array:-
+const duplicateValue = [1, 1, 3, 3, 4, 5, 6, 7, 7];
+
+const removeDuplicateValue = [...new Set(duplicateValue)];
+
+console.log(removeDuplicateValue);
