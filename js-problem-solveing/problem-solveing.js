@@ -36,9 +36,19 @@
 // console.log(array2.flat(Infinity));
 
 // 5. Replase an String word from a sentence:-
-const title =
-  "mahabub alam is web developer. he love to do web developerment. he already did up to 15 web development project";
+// const title =
+//   "mahabub alam is web developer. he love to do web developerment. he already did up to 15 web development project";
 
-const replasedResult = title.replace(/web/g, "Frontend");
+// const replasedResult = title.replace(/web/g, "Frontend");
 
-console.log(replasedResult);
+// console.log(replasedResult);
+
+// 6. smart way to console.log for developers:-
+const name1 = "mahabub";
+const name2 = "alam";
+
+console.log(`name1 -${name1}`);
+console.log(`name2 -${name2}`);
+
+console.log({ name1 });
+console.log({ name2 });
